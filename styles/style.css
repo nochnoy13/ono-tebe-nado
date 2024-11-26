@@ -96,7 +96,7 @@ header {
   position: relative;
   margin-top: 95px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(7, 1fr);
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
@@ -232,28 +232,22 @@ header {
   padding-left: 78px;
 }
 
-.button-stavka {
-  justify-self: center;
-  align-self: center;
-  border: 1px solid #ffffff;
-  width: 256px;
-  height: 51px;
-  color: #ffffff;
-  background-color: transparent;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 22px;
-}
-
 .button-link {
   z-index: 2;
-  grid-column-start: 1;
-  grid-column-end: 7;
-  grid-row-start: 1;
-  grid-row-end: 7;
-  padding-top: 655px;
-  padding-left: 794px;
-  position: relative;
+  grid-column: 3;
+  grid-row: 6 / 7;
+  color: white;
+  border: 1px solid white;
+  justify-self: start;
+  align-self: start;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 32px 11px 31px;
+  margin-left: 61px;
+  margin-top: 99.7px;
 }
 
 .lots {
